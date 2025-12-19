@@ -18,6 +18,7 @@ There are the recommended VS Code settings for flutter development. Set globally
     "dart.showTodos": false,
     "dart.lineLength": 120,
     "[dart]": {
+        "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
             "source.fixAll": "never",
             "source.organizeImports": "always",
