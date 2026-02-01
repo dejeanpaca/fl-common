@@ -2,18 +2,16 @@
 
 ## VS Code
 
-We use `Visual Studio Code` for flutter development.
+We use `Visual Studio Code` for `Flutter` development. Also take a look into [VS code documentation](../vscode.md).
 
 ## User setttings
 
-There are the recommended VS Code settings for flutter development. Set globally in user settings (recommnded), or per project.
+There are the required VS Code settings for `Flutter` development. Set globally in user settings (recommended), or per project.
 
 ```json
 {
-    "editor.rulers": [
-        120
-    ],
     "dart.hotReloadOnSave": "never",
+    "dart.flutterHotReloadOnSave": "never",
     "dart.runPubGetOnPubspecChanges": "never",
     "dart.showTodos": false,
     "dart.lineLength": 120,
@@ -24,6 +22,5 @@ There are the recommended VS Code settings for flutter development. Set globally
             "source.organizeImports": "always",
         }
     },
-    "cSpell.diagnosticLevel": "Hint"
 }
 ```
